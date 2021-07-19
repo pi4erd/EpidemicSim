@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preload" href="fonts/Roboto-Regular.ttf" as="font" crossorigin="anonymous" />
+        <link rel="stylesheet" href="styles.css">
+        <title>Epidemic</title>
+        <script src="https://cdn.jsdelivr.net/npm/p5@1.4.0/lib/p5.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@3.4.1/dist/chart.min.js" 
+            integrity="sha256-GMN9UIJeUeOsn/Uq4xDheGItEeSpI5Hcfp/63GclDZk=" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="right division">
+            <canvas id="chart" width="800" height="600"></canvas>
+            <script src="chart.js"></script>
+        </div>
+        <div class="left division">
+            <main></main>
+            <p class="text" id="sickcount"></p>
+            <p class="text" id="commoncount"></p>
+            <p class="text" id="immunecount"></p>
+            <p class="text" id="dead"></p>
+            <p class="text" id="peak"></p>
+            <script src="persongrid.js"></script>
+            <script src="person.js"></script>
+            <script src="sketch.js"></script>
+        </div>
+    </body>
+</html>
