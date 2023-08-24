@@ -19,7 +19,7 @@ class Person {
             if(this.isSick) {
                 this.sickTime -= 0.02; // TODO: Improve
                 if(!this.isDead && floor(random(10000)) == 1)
-                    this.die();
+                    this.die(); // Imagine havind die() function inside you xD
             }
         }
     }
